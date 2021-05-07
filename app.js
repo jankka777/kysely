@@ -3513,10 +3513,10 @@
       var t3, kysymykset = [], vaihtoehdot = [],
         t1 = type$.String,
         t2 = type$.Object;
-      vaihtoehdot.push(P.LinkedHashMap_LinkedHashMap$_literal(["teksti", "Kyll\xe4", "oikein", true], t1, t2));
-      vaihtoehdot.push(P.LinkedHashMap_LinkedHashMap$_literal(["teksti", "Ei", "oikein", false], t1, t2));
-      kysymykset.push(P.LinkedHashMap_LinkedHashMap$_literal(["teksti", "Siisti\xe4?", "vaihtoehdot", vaihtoehdot], t1, t2));
-      kysymykset.push(P.LinkedHashMap_LinkedHashMap$_literal(["teksti", "Toimiiko?", "vaihtoehdot", vaihtoehdot], t1, t2));
+      vaihtoehdot.push(P.LinkedHashMap_LinkedHashMap$_literal(["teksti", "Toyota", "oikein", true], t1, t2));
+      vaihtoehdot.push(P.LinkedHashMap_LinkedHashMap$_literal(["teksti", "Volkswagen", "oikein", false], t1, t2));
+      kysymykset.push(P.LinkedHashMap_LinkedHashMap$_literal(["teksti", "Valitse parempi", "vaihtoehdot", vaihtoehdot], t1, t2));
+      kysymykset.push(P.LinkedHashMap_LinkedHashMap$_literal(["teksti", "Kumman OIKEASTI haluat?", "vaihtoehdot", vaihtoehdot], t1, t2));
       t2 = document.querySelector("#seuraava");
       if (t2 != null) {
         t1 = J.get$onClick$x(t2);
